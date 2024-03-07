@@ -56,7 +56,6 @@ export const AnimatedWoman = ({
 
     let targetPosition = props.position || initialPosition;
 
-    console.log(targetPosition);
     if (
       group.current.position.distanceTo(targetPosition as THREE.Vector3Like) >
       0.1
